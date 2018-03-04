@@ -107,7 +107,9 @@ function showFiles($dir)
                 foreach ($allowExt as $key => $value){
                     $pattern.='.'.$value.'|';
                 }
-                $pattern.='SADFSAsfsaf098)$/i';
+                $pattern.='SADFSAsfsSA2af098)$/i';
+                $pattern=str_replace('|SADFSAsfsSA2af098','',$pattern);
+//                var_dump($pattern);
                 $check_ext=preg_match($pattern,$fullFilePath);
                 if ((filetype($fullFilePath)!='dir') and ($check_ext)) {
                     $file_list[]=$fullFilePath;
