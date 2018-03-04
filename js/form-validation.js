@@ -11,7 +11,7 @@ $(function() {
       uname: {
         required: true,
         minlength: 3,
-        minlength: 25
+        maxlength: 25
       },
       utel: {
         required: false,
