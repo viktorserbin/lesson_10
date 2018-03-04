@@ -20,6 +20,7 @@ echo <<<EOD
     <script src="js/jquery.validate.min.js"></script>
     <link href="https://www.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="https://www.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src="js/form-validation.js"></script>
 </head>
 <body>
 EOD;
