@@ -51,7 +51,8 @@ function uploadFiles($files, $maxFileSize = 2048)
     [size] => 23017
     )
 
-    ) */
+    )
+     */
     foreach ($files as $f1) {
         if ($f1['error'] != 0) {
             $fileUploadErr[] = 'Upload file error: ' . $f1['error'];
